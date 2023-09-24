@@ -65,6 +65,11 @@ s = \sum_{i=0}^{n-1} |x_i|
 ## Usage
 
 ```javascript
+import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter-sumabs/tags). For example,
+
+```javascript
 import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@v0.1.0-esm/index.mjs';
 ```
 
@@ -113,7 +118,7 @@ var s = itersumabs( arr );
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@v0.1.0-esm/index.mjs';
+import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
