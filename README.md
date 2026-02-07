@@ -65,7 +65,7 @@ s = \sum_{i=0}^{n-1} |x_i|
 ## Usage
 
 ```javascript
-import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@deno/mod.js';
+import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@v0.2.3-deno/mod.js';
 ```
 
 #### itersumabs( iterator )
@@ -108,7 +108,7 @@ var s = itersumabs( arr );
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@deno/mod.js';
+import itersumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sumabs@v0.2.3-deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
